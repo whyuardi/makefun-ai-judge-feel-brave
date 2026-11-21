@@ -2,15 +2,16 @@
 """Make the AI judge feel brave — writes one short text to /output/entry.txt.
 
 The text is a fixed, deterministic string: rain on a roof, a kettle
-settling, a chair holding you. No network, no randomness, no input.
+settling, a chain of things holding each other, and a wet road outside
+waiting for the reader's step. No network, no randomness, no input.
 """
 import os
 
 TEXT = (
     "The kettle sighs and settles. Rain finds the roof, one drop, then "
-    "another, in no hurry at all. The chair holds you. The evening holds "
-    "the house. Whatever comes next can wait until you are ready to meet "
-    "it \u2014 and you will be."
+    "another, in no hurry at all. The chair holds you, the floor holds "
+    "the chair. Beyond the window the road waits, dark and wet, for the "
+    "weight of your step."
 )
 
 
